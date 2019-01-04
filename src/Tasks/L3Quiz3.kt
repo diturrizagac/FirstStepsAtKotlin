@@ -1,8 +1,10 @@
+package Tasks
+
 fun main(args:Array<String>){
-    getFortuneCookie()
+    println("\nYour fortune is: ${getFortune()}")
 }
 
-fun getFortuneCookie() : String{
+fun getFortune() : String{
     val fortunes = listOf("You will have a great day!",
         "Things will go well for you today.",
     "Enjoy a wonderful day of success.",
